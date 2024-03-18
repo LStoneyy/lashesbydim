@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lashes by Dim</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="shortcut icon" href="./static/images/favicon.ico" type="image/x-icon">
+  <script src="./script.js"></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <nav>
+      <ul class="sidebar">
+        <li onclick=closeSidebar()><a href="#"><img src="./static/images/close_menu.png" alt=""></a></li>
+        <li><a href="#about" onclick=closeSidebar()>Über mich</a></li>
+        <li><a href="#bilder" onclick=closeSidebar()>Bilder</a></li>
+        <li><a href="#preise" onclick=closeSidebar()>Preise</a></li>
+        <li><a href="#kontakt" onclick=closeSidebar()>Kontakt</a></li>
+        <li><a href="#impressum" onclick=closeSidebar()>Impressum</a></li>
+      </ul>
+      <ul>
+        <li><a href="#"><img class="logo" src="./static/images/logo.png" alt="Logo for the company" /></a></li>
+        <li class="hideOnMobile"><a href="#about">Über mich</a></li>
+        <li class="hideOnMobile"><a href="#bilder">Bilder</a></li>
+        <li class="hideOnMobile"><a href="#preise">Preise</a></li>
+        <li class="hideOnMobile"><a href="#kontakt">Kontakt</a></li>
+        <li class="hideOnMobile"><a href="#impressum">Impressum</a></li>
+        <li class="menubtn" onclick=showSidebar()><a href="#"><img src="./static/images/open_menu.png" alt=""></a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="secone" id="about">
+    <div class="seconeleft">
+      <h1>Herzlich willkommen</h1>
+      <p>
+        mein Name ist Dim, und ich bin leidenschaftliche Wimpernstylistin mit einem Auge für Schönheit und Präzision.
+        Mit meiner Liebe zum Detail und meiner Fachkenntnis in verschiedenen Techniken der Wimpernverlängerung und
+        -verdichtung helfe ich meinen Kunden, ihren Blick zu verschönern.
+      </p>
+      <p>Jede Kundin erhält bei mir eine individuelle
+        Beratung und maßgeschneiderte Behandlung, um ihre Wimpern-Träume wahr werden zu lassen. Ich freue mich darauf,
+        dich in meinem Studio begrüßen zu dürfen und gemeinsam deine Wimpern zu verwandeln!</p>
+      <a href="#kontakt"><button class="seconebutton">Kontaktieren</button></a>
+    </div>
+    <div class="seconeright">
+      <img src="./static/images/logo.png" alt="Logo: Lashes by Dim" class="biglogo" />
+    </div>
+  </div>
+  <div class="sectwo" id="bilder">
+    <h2>Meine bisherigen Werke:</h2>
+    <div class="productcontainer">
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2023-07-03 17 22 23.jpg" alt=""></div>
+        <div class="prodtext">Mascara Look</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2023-07-03 17 27 10.jpg" alt=""></div>
+        <div class="prodtext">Volumen Look</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2023-07-03 17 37 45.jpg" alt=""></div>
+        <div class="prodtext">Light Volume/Mascara Look</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2023-07-03 17 37 49.jpg" alt=""></div>
+        <div class="prodtext">Volumen Look</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2024-02-18 19 59 14.jpg" alt=""></div>
+        <div class="prodtext">Classic Look, 1:1 Technik</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2024-02-18 20 01 30.jpg" alt=""></div>
+        <div class="prodtext">Farbige Wimpernverlängerung</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2024-02-18 20 01 33.jpg" alt=""></div>
+        <div class="prodtext">Dezenter Mascara Look</div>
+      </div>
+      <div class="product">
+        <div class="prodimg"><img src="./static/images/2023-07-03 17 37 55.jpeg" alt=""></div>
+        <div class="prodtext">Light Volume/Mascara Look</div>
+      </div>
+    </div>
+  </div>
+  <div class="secthree" id="preise">
+    <div class="preisliste">
+      Preisliste
+    </div>
+    <div class="secthreecontent">
+      <img src="./static/images/preisliste.png" alt="Preisliste as pdf">
+      <a href="./static/images/preisliste-transformed.png" target="_blank"><button class="secthreebutton">Hier klicken
+          zum Download</button></a>
+    </div>
+  </div>
+  <div class="secfour" id="kontakt">
+    <div class="secfourinner">
+      <div class="secfourleft">
+        <h3>Kontakt</h3>
+        <p class="contacttxt1">
+          Für freie Termine und allgemeine Kontaktanfragen, melde dich gerne per Mail oder Instagram (siehe rechts).
+        </p>
+        <p class="contacttxt1">Online sind Termine über Beautinda buchbar. Klicke hierzu bitte auf den folgenden Link:
+        </p>
+        <p class="contacttxt2">Für freie Termine und allgemeine Kontaktanfragen, melde dich gerne per Mail oder
+          Instagram. Online-Termine sind über Beautina buchbar. Klicke dafür auf einen der folgenden Links:</p>
+        <a href="https://beautinda.de/artist/bm0mcbZRcza3iH9hJkz9Y92gbRh1" target="_blank"><button
+            class="beautinda"><img
+              src="https://assets-global.website-files.com/61a39eee768b84546352096c/62d16690aa762f2423ff8667_Logo_Beautinda.png"
+              alt="Beautinda icon"></button></a>
+        <div class="buttonrow">
+          <a href="https://beautinda.de/artist/bm0mcbZRcza3iH9hJkz9Y92gbRh1" target="_blank"><button class="btn"><img
+                src="https://assets-global.website-files.com/61a39eee768b84546352096c/62d16690aa762f2423ff8667_Logo_Beautinda.png"
+                alt="Beautinda icon"></button></a>
+          <a href="mailto:dimanhussein@gmx.de"><button class="secfourbutton"><img src="./static/images/mail-ico.png"
+                alt="Mail icon"></button></a>
+          <a href="https://www.instagram.com/lashes.by.dim" target="_blank"><button class="secfourbutton"><img
+                src="./static/images/instagram.png" alt="Instagram icon"></button></a>
+        </div>
+      </div>
+      <div class="secfourright">
+        <a href="mailto:dimanhussein@gmx.de"><button class="secfourbutton"><img src="./static/images/mail-ico.png"
+              alt="Mail icon"></button></a>
+        <a href="https://www.instagram.com/lashes.by.dim" target="_blank"><button class="secfourbutton"><img
+              src="./static/images/instagram.png" alt="Instagram icon"></button></a>
+      </div>
+    </div>
+  </div>
+  <div class="impressum"  id="impressum">
+    <h3>Impressum</h3>
+    <div class="imprcontainer">
+      <div class="address">
+        <strong>Diman Hussein</strong>
+        <p>Neue Furth 31</p>
+        <p>52146 Würselen</p>
+        <p>dimanhussein@gmx.de</p>
+        <p>0176 81392144</p>
+      </div>
+      <div class="ihk">
+        <p>Steuer-Nr.: 202/5172/1776</p>
+        <p>Handwerkskammer Aachen</p>
+        <p>Betriebs-Nr.: 3123162</p>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <ul>
+      <li>Copyright © Lukas Schaffrath 2024</li>
+      <li>Icons by Bingge Liu, Freepik, and Beautinda</li>
+    </ul>
+  </div>
+  <a href="#" class="totop"><img src="./static/images/top-arrow.png" alt=""></a>
+</body>
+
+</html>
